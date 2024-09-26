@@ -14,9 +14,6 @@ public class TutorialApplication {
 		SpringApplication.run(TutorialApplication.class, args);
 
 	}
-	@Bean
-	public JdbcTemplate jdbcTemplate(DataSource dataSource) {
-		return new JdbcTemplate(dataSource);
-	}
+	
 
 }
