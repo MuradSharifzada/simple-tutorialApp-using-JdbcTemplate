@@ -1,4 +1,4 @@
-package com.example.Tutorial.ExceptionHandler;
+package com.example.Tutorial.exception;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,9 +1,9 @@
 package com.example.Tutorial.Service;
 
-import com.example.Tutorial.ExceptionHandler.TutorialAlreadyExistException;
-import com.example.Tutorial.ExceptionHandler.TutorialNotFoundByGivenID;
-import com.example.Tutorial.ExceptionHandler.TutorialNotFoundException;
-import com.example.Tutorial.ExceptionHandler.TutorialNotPublishedException;
+import com.example.Tutorial.exception.TutorialAlreadyExistException;
+import com.example.Tutorial.exception.TutorialNotFoundByGivenID;
+import com.example.Tutorial.exception.TutorialNotFoundException;
+import com.example.Tutorial.exception.TutorialNotPublishedException;
 import com.example.Tutorial.Model.Tutorial;
 import com.example.Tutorial.Repository.TutorialRepository;
 import org.slf4j.Logger;

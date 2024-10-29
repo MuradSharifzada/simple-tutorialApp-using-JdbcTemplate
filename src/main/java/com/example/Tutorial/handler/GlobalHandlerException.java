@@ -1,7 +1,11 @@
-package com.example.Tutorial.ExceptionHandler;
+package com.example.Tutorial.handler;
 
+import com.example.Tutorial.exception.TutorialAlreadyExistException;
+import com.example.Tutorial.exception.TutorialNotFoundByGivenID;
+import com.example.Tutorial.exception.TutorialNotFoundException;
+import com.example.Tutorial.exception.TutorialNotPublishedException;
+import com.example.Tutorial.response.ErrorResponse;
 import lombok.extern.slf4j.Slf4j;
-import org.springdoc.api.ErrorMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
